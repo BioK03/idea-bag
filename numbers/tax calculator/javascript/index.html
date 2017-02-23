@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+    <head>
+
+    </head>
+    <body>
+        <form onsubmit="submitForm();return false;">
+            <label for="htprice">Price Without taxes :</label>
+            <input id="htprice" type="number"/> €<br/>
+            <label for="country">Country - Tax :</label>
+            <select id="country"></select><br/>
+            <input type="submit"/>
+        </form><br/>
+        <div id="tax"></div>
+        <div id="ttcprice"></div>
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>
