@@ -7,3 +7,4 @@ Personnally, I use Idea Bag 2 from Android Play Store : https://play.google.com/
 ## Numbers
 * Distance between two cities
 * Tax calculator
+* Factorial Finder
