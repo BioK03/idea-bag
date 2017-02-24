@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+
+        <style type="text/css">
+            body, html {
+                height: 100%;
+                width: 100%;
+                display: block;
+                padding: 0;
+                margin: 0 auto;
+            }
+
+            table, tbody, tr {
+                width: 100%;
+                display: block;
+                padding: 0;
+                margin: 0 auto;
+            }
+            td, th {
+                width: 33%;
+                display: inline-table;
+                border-left: 1px solid #AAAAAA;
+                padding: 0;
+                margin: 0 auto;
+                text-align: center;
+                min-height: 1.5em;
+            }
+            th {
+                border-bottom: 1px solid #AAAAAA;
+            }
+            table tr:last-child {
+                border-top: 1px solid #AAAAAA;
+            }
+            .positive {
+                color: #339933;
+            }
+            .negative {
+                color: #993333;
+            }
+        </style>
+    </head>
+    <body>
+        <form onsubmit="submitForm();return false;">
+            <label for="title">Title : </label>
+            <input type="text" id="title"/>
+            <label for="category">Category : </label>
+            <input type="text" id="category" list="categories"/>
+            <datalist id="categories">
+
+            </datalist>
+            <label for="amount">Amount : </label>
+            <input type="number" step="0.01" id="amount"/>
+            <input type="submit"/>
+        </form><br/>
+        <table id="results">
+            
+        </table>
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>
