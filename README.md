@@ -11,4 +11,5 @@ Personnally, I use Idea Bag 2 from Android Play Store : https://play.google.com/
 * Happy Numbers
 * Coin Flip
 * Household Budget Program
+* Calculator
 * Decimal to Roman Numerals
