@@ -16,5 +16,8 @@ Personnally, I use Idea Bag 2 from Android Play Store : https://play.google.com/
 * Pi to the Nth digit
 
 ## Strings
-* Morse Code Generator
+* Morse Code Maker
+* Pig Latin
+* DisemVoweler
 * In Order
+* TypiGlycemia
