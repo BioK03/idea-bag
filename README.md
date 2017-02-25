@@ -20,4 +20,4 @@ Personnally, I use Idea Bag 2 from Android Play Store : https://play.google.com/
 * Pig Latin
 * DisemVoweler
 * In Order
-* TypiGlycemia
+* TypoGlycemia
