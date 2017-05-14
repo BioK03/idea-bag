@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+    <head>
+        <style type="text/css">
+            .stock {
+                margin: 1em;
+                display: inline-block;
+                width: 15em;
+                height: 5em;
+                background-color: #AAAAAA;
+            }
+            .stock.indicator {
+                font-size: 200%;
+            }
+            .positive {
+                color: #99DD99;
+            }
+            .negative {
+                color: #DD9999;
+            }
+        </style>
+    </head>
+    <body>
+        <form onsubmit="submitFormDuration();return false;">
+            <label for="duration">Duration between two checks :</label>
+            <input type="number" id="duration"/><br/>
+            <input type="submit"/>
+        </form><br/>
+
+        <form onsubmit="submitForm();return false;">
+            <label for="text">Indice :</label>
+            <input type="text" id="text"/><br/>
+            <input type="submit"/>
+        </form><br/>
+
+        <div id="result">
+
+        </div>
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>
